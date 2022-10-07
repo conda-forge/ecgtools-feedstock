@@ -32,11 +32,12 @@ requirements:
     - pyyaml
     - typer
     - xarray
+    - intake-esm >=2022
 
 test:
-  # imports:
-  #   - ecgtools
-  #   - ecgtools.parsers
+  imports:
+    - ecgtools
+    - ecgtools.parsers
   commands:
     - pip check
   requires:
