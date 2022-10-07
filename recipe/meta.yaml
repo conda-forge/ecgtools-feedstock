@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools >=30.3.0
     - setuptools_scm
   run:
@@ -28,24 +28,25 @@ requirements:
     - netcdf4
     - pandas
     - pydantic
-    - python >=3.7
+    - python >=3.8
     - pyyaml
     - typer
     - xarray
 
 test:
-  imports:
-    - ecgtools
-    - ecgtools.parsers
+  # imports:
+  #   - ecgtools
+  #   - ecgtools.parsers
   commands:
     - pip check
   requires:
     - pip
 
 about:
-  home: https://github.com/NCAR/ecgtools
+  home: https://github.com/ncar-xdev/ecgtools
   summary: ESM Catalog Generation Utilities
-  dev_url: https://github.com/NCAR/ecgtools
+  dev_url: https://github.com/ncar-xdev/ecgtools
+  docs_url: https://ecgtools.readthedocs.io/en/latest/
   license: Apache-2.0
   license_file: LICENSE
 
