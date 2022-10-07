@@ -1,5 +1,5 @@
 {% set name = "ecgtools" %}
-{% set version = "2021.9.23" %}
+{% set version = "2022.10.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ecgtools-{{ version }}.tar.gz
-  sha256: de1b72d046757331929f79574595d97b3a03fe66b0d3788f19b862712d5849c5
+  sha256: b722808d3f1391fb38e0501c381f86b744bbe401879f279aaf4f221bc14457b0
 
 build:
   number: 0
@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools >=30.3.0
     - setuptools_scm
   run:
@@ -28,10 +28,11 @@ requirements:
     - netcdf4
     - pandas
     - pydantic
-    - python >=3.7
+    - python >=3.8
     - pyyaml
     - typer
     - xarray
+    - intake-esm >=2022
 
 test:
   imports:
@@ -43,9 +44,10 @@ test:
     - pip
 
 about:
-  home: https://github.com/NCAR/ecgtools
+  home: https://github.com/ncar-xdev/ecgtools
   summary: ESM Catalog Generation Utilities
-  dev_url: https://github.com/NCAR/ecgtools
+  dev_url: https://github.com/ncar-xdev/ecgtools
+  doc_url: https://ecgtools.readthedocs.io/en/latest/
   license: Apache-2.0
   license_file: LICENSE
 
