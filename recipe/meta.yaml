@@ -46,7 +46,7 @@ about:
   home: https://github.com/ncar-xdev/ecgtools
   summary: ESM Catalog Generation Utilities
   dev_url: https://github.com/ncar-xdev/ecgtools
-  docs_url: https://ecgtools.readthedocs.io/en/latest/
+  doc_url: https://ecgtools.readthedocs.io/en/latest/
   license: Apache-2.0
   license_file: LICENSE
 
