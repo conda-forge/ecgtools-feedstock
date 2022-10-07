@@ -1,7 +1,7 @@
 About ecgtools
 ==============
 
-Home: https://github.com/NCAR/ecgtools
+Home: https://github.com/ncar-xdev/ecgtools
 
 Package license: Apache-2.0
 
@@ -9,7 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ecgtools-feedst
 
 Summary: ESM Catalog Generation Utilities
 
-Development: https://github.com/NCAR/ecgtools
+Development: https://github.com/ncar-xdev/ecgtools
+
+Documentation: https://ecgtools.readthedocs.io/en/latest/
 
 Current build status
 ====================
