@@ -1,5 +1,5 @@
 {% set name = "ecgtools" %}
-{% set version = "2022.10.7" %}
+{% set version = "2023.7.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ecgtools-{{ version }}.tar.gz
-  sha256: b722808d3f1391fb38e0501c381f86b744bbe401879f279aaf4f221bc14457b0
+  sha256: fc208614a1491dab25297c315a0001dc5bc6c1f0ae3d70e250ccd49601952097
 
 build:
   number: 0
